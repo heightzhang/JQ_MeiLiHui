@@ -1,0 +1,358 @@
+/*-------------字体图标------------*/
+@font-face {font-family: "iconfont";
+  src: url('iconfont_index/iconfont.eot?t=1496799408939'); /* IE9*/
+  src: url('iconfont_index/iconfont.eot?t=1496799408939#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont_index/iconfont.woff?t=1496799408939') format('woff'), /* chrome, firefox */
+  url('iconfont_index/iconfont.ttf?t=1496799408939') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont_index/iconfont.svg?t=1496799408939#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhekou:before { content: "\e678"; }
+
+.icon-aixin:before { content: "\e63e"; }
+
+.icon-icon3:before { content: "\e608"; }
+
+.icon-icon:before { content: "\e628"; }
+
+.icon-clock:before { content: "\e642"; }
+
+.icon-qitianwuliyoutuihuan:before { content: "\e635"; }
+
+
+
+/*----------------正版-------------------*/
+
+.clearfix:after{content:" ";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+
+
+body,html{width: 100%;box-sizing:border-box;}
+
+.container{width: 1000px;
+	  margin:0 auto;}
+
+
+/*====================header================*/
+#header{
+	height: 28px;
+	width: 100%;
+	background-color:#F2F2F2;
+}
+#header .container{
+	height: 100%;
+}
+#header .container ul.left{
+	height: 100%;
+	width: 400px;
+	float: left;
+}
+#header .container ul.left li{
+	float: left;
+	font-size: 12px;
+	line-height: 28px;
+	width: 65px;
+	text-align: center;
+}
+#header .container ul.left li.first{
+	padding-left: 23px;
+	width: 92px;
+	position: relative;
+}
+#header .container ul.left li.first span.gif{
+	display: block;
+    width: 20px;
+    height: 20px;
+    background: url(./img/gift.gif) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 10px;
+}
+#header .container ul.left li a{
+	border-right: 1px solid #000;
+	padding-right: 20px;
+}
+#header .container ul.left li a.first{
+	color:#FF0000;
+}
+#header .container ul.left li a:hover{
+	color:#FF0000;
+}
+
+
+#header .container ul.right{
+	height: 100%;
+	width: 300px;
+	float: right;
+}
+#header .container ul.right li{
+	float: left;
+	font-size: 12px;
+	line-height: 28px;
+	width: 80px;
+	text-align: center;
+	position: relative;
+}
+#header .container ul.right li a{
+	border-right: 1px solid #000;
+	padding-right: 20px;
+
+}
+#header .container ul.right li a span.weibo{
+	display: block;
+    width: 27px;
+    height: 28px;
+	background: url(./img/weibo.png) no-repeat;
+	position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    right: 45px;
+}
+
+/*============title=====================*/
+#title{
+	height:74px;
+	width: 100%;
+	padding-top: 18px;
+}
+#title .container{
+	height: 100%;
+}
+#title .container a{
+	display: block;
+	width: 342px;
+	height: 56px;
+}
+#title .container h1{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../img/h1.png);
+}
+
+/*============nav=====================*/
+#nav{
+	height: 42px;
+	width: 100%;
+	background-color: #000;
+	position: relative;
+}
+#nav .container{
+	height: 100%;
+}
+#nav .container ul.nav{
+	float: left;
+}
+#nav .container ul.nav li{
+	float: left;
+	margin-right: 40px;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 10px;
+}
+
+#nav .container ul.nav li .pop_up_menu{
+	display: none;
+}
+#nav .container ul.nav li:hover .pop_up_menu{
+	display: block;
+}
+
+#nav .container ul.nav li>a{
+	color: white;
+	font-size: 12px;
+}
+#nav .container ul.nav li.first a{
+	color: #FF0000;
+}
+#nav .container ul.nav li a:hover{
+	color: #FF0000;
+}
+#nav .container ul.nav li.news{
+	position: relative;
+}
+#nav .container ul.nav li a span.news{
+	display: block;
+    width: 38px;
+    height: 15px;
+    background: url(./img/news.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    left: 14px;
+}
+#nav .container ul.nav_right{
+	float: right;
+	width: 140px;
+	height: 100%;
+}
+#nav .container ul.nav_right li{
+	float: left;
+	height: 100%;
+	line-height: 42px;
+	margin-left: 15px;
+	color: white;
+}
+#nav .container ul.nav_right li a{
+	color: white;
+	font-size: 12px;
+}
+#nav .container ul.nav_right li a.buy{
+	display: block;
+	width:24px;
+	height: 26px;
+	line-height: 26px;
+	background: url('./img/buy.jpg') -1px -1px no-repeat;
+	margin-top: 8px;
+	color: #fff;
+	text-align: center;
+}
+
+#nav .container .pop_up_menu {
+  position: absolute;
+  width: 630px;
+  height: auto;
+  box-shadow: 0 1px 6px #999;
+  background-color: #fff;
+  background-position: 315px 0;
+  overflow: hidden;
+  z-index: 999; }
+  #nav .container .pop_up_menu .submenu {
+    width: 274px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    padding: 0 20px 0 20px;
+    position: relative;
+    border-right: 1px #e7e7e7 solid;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    #nav .container .pop_up_menu .submenu .title {
+      width: 100%;
+      height: 44px;
+      line-height: 44px;
+      font-size: 14px;
+      font-weight: bold;
+      border-bottom: 1px solid #e7e7e7;
+      text-align: left; }
+    #nav .container .pop_up_menu .submenu ul {
+      width: 100%;
+      height: auto;
+      max-height: 230px;
+      overflow: hidden;
+      padding-bottom: 34px; }
+      #nav .container .pop_up_menu .submenu ul a {
+        color: #666666; }
+      #nav .container .pop_up_menu .submenu ul li {
+        float: none;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        line-height: 15px;
+        white-space: normal;
+        text-align: left;
+        margin-top: 10px;
+        margin-right: 0; }
+    #nav .container .pop_up_menu .submenu .more {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      text-align: right; }
+      #nav .container .pop_up_menu .submenu .more a {
+        color: #000;
+        font-size: 12px; }
+      #nav .container .pop_up_menu .submenu .more a:hover {
+        color: #f00; }
+    #nav .container .pop_up_menu .submenu .submenu_ul {
+      width: 50%;
+      float: left; }
+
+#nav .container .last {
+  width: 315px; }
+/*==============上面结束===============*/
+
+/*==============下面开始===============*/
+
+/*------footer------*/
+#footer{
+	height: 216px;
+	width: 100%;
+	background-color:#F2F2F2;
+	padding-top: 28px;
+}
+#footer .container{
+	height: 100%;
+}
+#footer .container .icon{
+	height: 60px;
+}
+#footer .container .icon li{
+	float: left;
+	height: 60px;
+	width: 164px;
+	border-right: 1px solid #000;
+	text-align: center;
+}
+#footer .container .icon li i{
+	font-size: 28px;
+}
+#footer .container .icon li i:hover{
+	color: red;
+}
+#footer .container .icon li span{
+	display: block;
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+#footer .container .footer_link{
+	font-size: 12px;
+	margin-top: 22px;
+	text-align: center;
+}
+#footer .container .footer_link a{
+	margin: 0 12px;
+}
+#footer .container .footer_link a:hover{
+	color: red;
+}
+#footer .container .footer_copyright{
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+#footer .container .footer_copyright span{
+	margin-right: 30px;
+	color: #000;
+}
+
+#footer .container .footer_license{
+	margin-top: 22px;
+	text-align: center;
+}
+#footer .container .footer_license .footer_span1{
+	display: inline-block;
+	width: 35px;
+	height: 36px;
+	margin-right: 20px;
+	background: url(./img/icon_foot.png) no-repeat;
+}
+#footer .container .footer_license .footer_span2{
+	display: inline-block;
+	width: 105px;
+	height: 35px;
+	background: url(./img/icon_foot2.png) no-repeat;
+}
+
+
+/*===============以上为版面样式============*/

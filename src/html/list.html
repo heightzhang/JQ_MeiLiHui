@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<!-- 重置样式 -->
+	<link rel="stylesheet" href="../css/base.css">
+
+	<!-- 公共样式 -->
+	<link rel="stylesheet" href="../css/common.css">
+
+	<!-- 本页样式 -->
+	<link rel="stylesheet" href="../css/list.css">
+
+	<!-- require 模块化开发 -->
+	<script src="../lib/require.js" data-main='../js/list.js'></script>
+</head>
+<body>
+		<!-- 头部 -->
+	<div id="header">
+		<div class="container">
+		<ul class="left clearfix">
+			<li class="first"><a href="./register.html" class="first"><span class="gif"></span>注册有礼</a></li>
+			<li><a href="./login.html">登录</a></li>
+			<li><a href="#">收藏</a></li>
+		</ul>
+
+		<ul class="right">
+			<li><a href="#">在线咨询</a></li>
+			<li><a href="#">手机版</a></li>
+			<li><a href="#"><span class="weibo"></span></a></li>
+		</ul>
+		</div>
+	</div>
+
+	<!-- logo栏目 -->
+	<div id="title">
+		<div class="container">
+			<a href="#"><h1></h1></a>
+		</div>
+	</div>
+
+	<!-- 导航条 -->
+	<div id="nav">
+		<div class="container">
+			<ul class="nav">
+				<li class="first"><a href="../index.html">首页</a></li>
+				<li><a href="#">女士</a>
+					<div class="pop_up_menu">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+						<div class="submenu">
+							<p class="title">商品分类</p>
+							<ul class="submenu_ul">
+								<li><a href="#">服装</a></li>
+								<li><a href="#">鞋履</a></li>
+								<li><a href="#">包袋</a></li>
+								<li><a href="#">手表&首饰</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">眼镜</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">男士</a>
+					<div class="pop_up_menu">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+						<div class="submenu">
+							<p class="title">商品分类</p>
+							<ul class="submenu_ul">
+								<li><a href="#">服装</a></li>
+								<li><a href="#">鞋履</a></li>
+								<li><a href="#">包袋</a></li>
+								<li><a href="#">手表&首饰</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">眼镜</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">美妆</a>
+					<div class="pop_up_menu">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+						<div class="submenu">
+							<p class="title">商品分类</p>
+							<ul class="submenu_ul">
+								<li><a href="#">服装</a></li>
+								<li><a href="#">鞋履</a></li>
+								<li><a href="#">包袋</a></li>
+								<li><a href="#">手表&首饰</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">眼镜</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">家居</a>
+					<div class="pop_up_menu">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+						<div class="submenu">
+							<p class="title">商品分类</p>
+							<ul class="submenu_ul">
+								<li><a href="#">服装</a></li>
+								<li><a href="#">鞋履</a></li>
+								<li><a href="#">包袋</a></li>
+								<li><a href="#">手表&首饰</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">眼镜</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">婴童</a>
+					<div class="pop_up_menu">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+						<div class="submenu">
+							<p class="title">商品分类</p>
+							<ul class="submenu_ul">
+								<li><a href="#">服装</a></li>
+								<li><a href="#">鞋履</a></li>
+								<li><a href="#">包袋</a></li>
+								<li><a href="#">手表&首饰</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">眼镜</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="news"><a href="#" ><span class="news">
+				</span>海外</a>
+					<div class="pop_up_menu last">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+					</div>
+
+				</li>
+				<li><a href="#">老佛爷奥莱</a>
+					<div class="pop_up_menu last">
+						<div class="submenu">
+							<p class="title">热门活动</p>
+							<ul>
+								<li><a href="#">SANGLUO 柔软高贵、华美典雅家居服秀场</a></li>
+								<li><a href="#">CARVEN 当季新款 男女服装配饰</a></li>
+								<li><a href="#">CROCUS 当下时髦饰品年中促</a></li>
+								<li><a href="#">沉稳矜持 连衣裙专场</a></li>
+								<li><a href="#">休闲舒适 连衣裙专场</a></li>
+								<li><a href="#">性感动人 连衣裙专场</a></li>
+								<li><a href="#">甜美浪漫 连衣裙专场</a></li>
+								<li><a href="#">HOII 后益 防晒黑科技（满折）</a></li>
+							</ul>
+							<p class="more"><a href="#">查看所有活动</a></p>
+						</div>
+					</div>
+
+				</li>
+				<li><a href="#">即将推出</a></li>
+			</ul>
+			<ul class="nav_right">
+				<li><a href="#" class="buy">0</a></li>
+				<li>|</li>
+				<li>$<span>0.00</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="productslist">
+		<div class="container">
+			<!-- 面包屑 - 倒计时栏 -->
+			<div class="breadcrumbs">
+				<ul>
+				<li><a href="#">首页</a></li>
+				<li><span>></span><a href="#">女士</a></li>
+				<li><span>></span><a href="#" class="last">SINEQUANONE</a></li>
+				</ul>
+				<!-- 倒数 -->
+				<div class="countdown">
+					<span class="clock"></span>
+					<span id="spanTime"></span>
+				</div>
+			</div>
+			<!-- 简介栏 -->
+			<div class="box_effect">
+				
+			</div>
+
+			<!-- 筛选栏 -->
+			<div class="nav-attrs">
+				
+			</div>
+
+			<!-- 导航栏 -->
+			<div class="searchContentDiv">
+				<div class="productquery">
+					<b class="sorter">
+						<a href="#" class="btn-reset-sorter">默认排序</a>
+						<a href="#" class="order-by">价格</a>
+					</b>
+
+						<!-- 总数商品页 -->
+					<div class="ui-page-s-wrap"> <span class="currentPage" id="cu"></span>/<span class="totalPage"></span>
+					</div>
+
+					<span class="ui-page-totalCount">共<span></span>个商品</span>
+				
+				</div>
+
+			</div>
+
+			<!-- 重点:产品列表 -->
+			<div class="contentDiv">
+				<ul class="listproduct clearfix">
+				</ul>
+
+				<!-- 分页列表 -->
+				<nav class="Page navigation">
+					<ul class="pagination">
+					
+					</ul>
+				</nav>
+
+				
+			</div>
+		</div>
+
+
+
+	</div>
+	<div id="footer">
+		<div class="container">
+			<!-- ul字体图标-->
+			<ul class="icon">
+				<li>
+					<a href="#">
+					<i class="iconfont icon-aixin"></i>
+					<span>100%品牌授权正品</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<i class="iconfont icon-icon3"></i>
+					<span>满688元免运费</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<i class="iconfont icon-qitianwuliyoutuihuan"></i>
+					<span>七天无条件退货</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="iconfont icon-zhekou"></i>
+						<span>超值折扣</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="iconfont icon-clock"></i>
+						<span>九点限时抢购</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="iconfont icon-icon"></i>
+						<span>400 - 664 - 6698</span>
+					</a>
+				</li>
+			</ul>
+			<!-- 脚本链接 -->
+			<p class="footer_link">
+				<a href="#">关于魅力惠</a>
+				<a href="#">加入我们</a>
+				<a href="#">联系我们</a>
+				<a href="#">使用帮助</a>
+				<a href="#">使用规则</a>
+				<a href="#">隐私声明</a>
+				<a href="#">网站地图</a>
+			</p>
+			<!-- 版权 -->
+			<p class="footer_copyright">
+				<span>COPYRIGHT©2016  杭州魅俪信息技术有限公司版权所有</span>
+				浙ICP备16004860号-1
+			</p>
+			<!-- 执照/许可证 -->
+			<p class="footer_license">
+				<a href="#"><span class="footer_span1"></span></a>
+				<a href="#"><span class="footer_span2"></span></a>
+			</p>
+
+		</div>
+	</div>
+</body>
+</html>

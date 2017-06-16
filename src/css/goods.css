@@ -1,0 +1,452 @@
+body{font-size: 12px;}
+/*Ãæ°üÐ¼--*/
+#bread{
+}
+#bread .container{
+	
+	height: 100%;
+}
+#bread .container .breadcrumbs{
+	height: 16px;
+	padding: 20px 0;
+	position: relative;
+	font-size: 14px;
+}
+
+#bread .container .breadcrumbs ul li{
+	float: left;
+	margin-right: 8px;
+}
+#bread .container .breadcrumbs ul li span{
+	margin-right: 8px;
+}
+#bread .container .breadcrumbs ul li a{
+	color: #ccc;
+}
+#bread .container .breadcrumbs ul li a:hover{
+	color:red;
+}
+#bread .container .breadcrumbs ul li a.last{
+	color: #000;
+}
+/* ==============²úÆ·Õ¹Ê¾================*/
+#product{
+	height: 785px;
+}
+#product .container{
+	height: 100%;
+	overflow: hidden;
+}
+#product .container .product_view{
+	float: left;
+	width: 480px;
+	height: 757px;
+	margin: 0 0 0 5px;
+}
+#product .container .product_info{
+	float: left;
+	width: 480px;
+	height: 757px;
+	margin-right: 5px;
+}
+#product .container .product_view .product_img{
+	width: 480px;
+	height: 640px;
+	position: relative;
+}
+#product .container .product_view .product_selectimg{
+
+}
+#product .container .product_view .product_selectimg ul{
+	overflow: hidden;
+}
+#product .container .product_view .product_selectimg ul li{
+	float: left;
+	margin-left: 10px;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+#product .container .product_view .product_selectimg ul li img{
+	width: 80px;
+	height: 107px;
+}
+
+#product .container .product_view .product_selectimg ul li:hover{
+	border: 2px solid #ccc;
+	border-radius: 5px;
+}
+
+/*-----ÉÌÆ·ÏêÇéÒ³ÃæÓÒ±ß²¿·Ö---*/
+#product .container .product_info .product_title{
+	font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 4px 40px 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+#product .container .product_info .product_title>a{
+	display: block;
+	width: 25px;
+	height: 20px;
+	position: absolute;
+	top: 13px;
+	right: 0;
+	background: url('../img/goods/share_weibo.png') no-repeat;
+}
+
+#product .container .product_info .product_name{
+	padding-left: 2px;
+    padding-right: 30px;
+    font-size: 16px;
+    color: #929292;
+    font-weight: 400;
+}
+#product .container .product_info .product_price_box{
+    padding: 22px 0 0;
+    line-height: 32px;	
+    overflow: hidden;
+    position: relative;
+}
+#product .container .product_info .product_price{
+	float: left;
+	margin: 0 10px 0 0;
+	white-space: nowrap;
+	font-size: 28px;
+	font-weight: bold;
+	color: #dd2828;
+}
+#product .container .product_info .oldPrice{
+	float: left;
+	text-decoration: line-through;
+	font-size: 18px;
+	color: #999;
+}
+#product .container .product_info .discount{
+	float: right;
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: arial;
+	margin-right: 12px;
+}
+#product .container .product_info .zhe{
+	position: absolute;
+	top: 23px;
+	right: 0;
+}
+#product .container .product_info .box_effect{
+	padding: 10px;
+	margin: 21px 0 30px;
+	background: #eee;
+	position: relative;
+} 
+#product .container .product_info .box_effect span.freigh{
+	display: block;
+	width: 18px;
+	height: 22px;
+	position: absolute;
+	top: 7px;
+	left: 20	px;
+	background: url('../img/goods/icon_sales.png') no-repeat;
+}
+#product .container .product_info .box_effect p.freigh{
+	padding-left: 48px;
+	line-height: 20px;
+	white-space: normal;
+	font-size: 14px;
+}
+/*ÑÕÉ«Ñ¡Ôñ*/
+#product .container .product_info .product_choose{
+	width: 360px;
+    height: auto;
+    position: relative;
+    margin: 0 0 8px;
+}
+#product .container .product_info .product_choose .choose_title{
+	width: 360px;
+    height: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #929292;
+}
+#product .container .product_info .product_choose .choose_title strong{
+    margin: 0 0 0 10px;
+    color: #000;
+}
+#product .container .product_info .product_choose .choose_a{
+	display: inline-block;
+}
+#product .container .product_info .product_choose .choose_a img{
+	width: 58px;
+	height: 77px;
+	border: 1px solid #eee;
+}
+#product .container .product_info .product_choose .choose_a span{
+	display: inline-block;
+	color: #fff;
+    background: #000;
+    line-height: 17px;
+    text-align: center;
+    width: 58px;
+    height: 17px;
+}
+/*³ß´çÑ¡Ôñ*/
+#product .container .product_info .product_size{
+	width: 360px;
+    height: auto;
+    position: relative;
+    margin: 0 0 8px;
+}
+#product .container .product_info .product_size .choose_title{
+	width: 360px;
+    height: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #929292;
+}
+#product .container .product_info .product_size .sizeNum{
+	overflow:hidden;
+}
+
+#product .container .product_info .product_size .sizeNum li{
+	float: left;
+	height: 34px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#product .container .product_info .product_size .sizeNum li a{
+    display: inline-block;
+    width: 68px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    background: #eee;	
+}
+#product .container .product_info .product_size .sizeNum li a:hover{
+	color: #fff;
+	background-color: #000;
+}
+#product .container .product_info .product_size .sizeNum li a.active{
+	color: #fff;
+	background-color: #000;
+}
+
+#product .container .product_info .chooseNum{
+	width: 360px;
+    height: auto;
+    position: relative;
+    margin: 0 0 8px;
+}
+#product .container .product_info .chooseNum .choose_title{
+	width: 360px;
+    height: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #929292;
+    
+}
+/*ÊýÁ¿¿ØÖÆ JS*/
+#product .container .product_info .chooseNum .number_choose{
+    height: 34px;
+    border: 0;	
+}
+#product .container .product_info .chooseNum .number_choose span{
+	display: inline-block;
+	cursor: pointer;
+}
+#product .container .product_info .chooseNum .number_choose .countReduce{
+	width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 24px;
+    border-right: 0;
+    background: #eee;
+    text-indent: 0;
+}
+#product .container .product_info .chooseNum .number_choose .number_increase{
+	width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 24px;
+    border-left: 0;
+    background: #eee;
+    text-indent: 0;
+}
+#product .container .product_info .chooseNum .number_choose .number_increase:hover{
+	color: #fff;
+	background-color: #000;
+}
+#product .container .product_info .chooseNum .number_choose .countReduce:hover{
+	color: #fff;
+	background-color: #000;
+}
+#product .container .product_info .chooseNum .number_choose .quantity_number{
+    width: 40px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 700;	
+}
+#product .container .product_info .product_trace{
+	height: 30px;
+    padding: 3px 0 0;
+    color: #929292;
+    font-size: 14px;
+    font-weight: 500;
+}
+#product .container .product_info .product_trace span{
+	font-weight: bold;
+	color: #000;
+}
+
+#product .container .product_info .product_button{
+	position: relative;
+}
+#product .container .product_info .product_button .join_shopping_bag{
+	display: block;
+    width: 230px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    background-color: #de2827;
+    color: #fff;
+    font-weight: bold;
+}
+#product .container .product_info .product_button span.buy{
+	display: block;
+	position: absolute;
+	background: url('../img/goods/icon_buy.png');
+	width: 22px;
+	height: 22px;
+	top: 50%;
+	margin-top: -11px;
+	left: 46px;
+}
+/*倒计时功能*/
+#product .container .product_info .countdown{
+	width: 480px;
+	height: 115px;
+}
+#product .container .product_info .p_d_after_sale{
+	padding: 34px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#product .container .product_info .p_d_after_sale span{
+    height: 20px;
+    display: inline-block;
+    padding: 0 13px 0 26px;
+    line-height: 20px;	
+}
+
+#product .container .product_info .p_d_after_sale .real100{
+	background: url('../img/goods/icon_real100.png') no-repeat;
+}
+#product .container .product_info .p_d_after_sale .rma7days{
+	background: url('../img/goods/icon_7daysrma.png') no-repeat;
+}
+
+/*-----car-------------购物车飞入效果样式--------*/
+#nav .container .pop_up_shopping{
+	position: absolute;
+	right: 246px;
+	top:43px;
+	width: 285px;
+	background-color: #fff;
+	box-shadow: 0 1px 6px #999;
+	z-index: 9;
+	overflow: hidden;
+	height: 0;
+}
+
+#nav .container .pop_up_shopping .my_goods{
+	margin-top: 40px;
+	width: 260px;
+	height:auto;
+	margin-left: 20px;
+	overflow: hidden;
+}
+#nav .container .pop_up_shopping .my_goods ul{
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+
+
+}
+#nav .container .pop_up_shopping .my_goods ul li{
+	float: left;
+}
+#nav .container .pop_up_shopping .my_goods ul li.my_goods_img{
+	width: 50px;
+	height: 67px;
+	border: 1px solid #e7e7e7;
+}
+#nav .container .pop_up_shopping .my_goods ul li.my_goods_img img{
+	width: 50px;
+	height: 67px;
+	cursor: pointer;
+}
+#nav .container .pop_up_shopping .my_goods ul li.text{
+	
+}
+#nav .container .pop_up_shopping .my_goods ul li.text p{
+	margin-bottom: 3px;
+	width: 160px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#nav .container .pop_up_shopping .my_goods ul li.text p:hover{
+	color: #f00;
+}
+#nav .container .pop_up_shopping .my_goods ul li.del{
+	position: relative;
+	width: 30px;
+	height: 57px;
+}
+#nav .container .pop_up_shopping .my_goods ul li.del span{
+	display: block;
+	position: absolute;
+	right: 1px;
+	bottom:1px;
+	font-size: 12px;
+	z-index: 999;
+	cursor:pointer;
+}
+#nav .container .pop_up_shopping .my_goods ul li.del span:hover{
+	color: #f00;	
+}
+/*---sub total */
+#nav .container .pop_up_shopping .sub{
+	margin-top: 20px;
+
+}
+#nav .container .pop_up_shopping .sub .total{
+	margin-left: 133px;
+}
+#nav .container .pop_up_shopping .sub .total span{
+	font-size: 18px;
+	font-weight: bold;
+}
+#nav .container .pop_up_shopping .sub .jiesuan{
+	display: block;
+    width: 100px;
+    height: 27px;
+    background-color: #db2726;
+    height: 27px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+    margin: 24px auto;
+    cursor: pointer;
+}

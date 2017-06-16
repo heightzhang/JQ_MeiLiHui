@@ -1,0 +1,31 @@
+#login{
+	height: 832px;
+	overflow: hidden;
+	background-color: #F7F7F9;
+	.container{
+		height:100%;
+		/*登录头部*/
+		.login_header{
+			background-color: #fff;
+			overflow: hidden;
+			cursor: pointer;
+			img{
+				margin: 0 auto;
+				margin-top: 30px;
+			}
+		}
+		/*登录内容*/
+		.login_content{
+			background: url('../img/login/background.jpg') no-reapte;
+		}
+
+	}
+}
+
+
+
+
+
+#footer{
+	background-color: #fff;
+}

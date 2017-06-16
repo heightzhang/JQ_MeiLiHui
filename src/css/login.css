@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body{font-size: 12px;}
+/*===============登录区域===================*/
+#login {
+	background-color: #F7F7F9; 
+}
+#login .container {
+    height: 100%;
+}
+#login .container .login_header{
+	background-color: #fff;
+	overflow: hidden;
+	cursor: pointer; 
+}
+#login .container .login_header img {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#login .container .login_content {
+    background:url("../img/login/background.jpg") no-repeat;
+    height: 650px;
+   	overflow: hidden;
+}
+#login .container .login_content .login_main{
+	float: right;
+	width: 350px;
+	height: 348px;
+	margin: 120px 150px 0 0;
+}
+/*---------------1.登录头部----------*/
+#login .login_main .hydl_regsiter{
+	margin-left: 90px;
+	width: 260px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	font-size: 14px;
+}
+#login .login_main .hydl_regsiter h2{
+	font-size: 16px;
+	float: left;
+	font-weight: bold;
+}
+#login .login_main .hydl_regsiter span{
+	float: right;
+	margin-top: 2px;
+}
+#login .login_main .hydl_regsiter span a{
+	text-decoration: underline;
+	color: #db2725;
+}
+
+/*-----------2登录条*--------------*/
+#login .login_main .hydl_loginbar li{
+	width: 350px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+#login .login_main .hydl_loginbar li label{
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	text-align: right;
+	margin-right: 15px;
+}
+#login .login_main .hydl_loginbar li input{
+    width: 253px;
+    padding-left: 5px;
+    height: 28px;
+    border: 1px solid #999;
+    color: #999;
+    line-height: 28px;
+	color: #000;
+}
+/*登录条下的_提交按钮*/
+#login .login_main .hydl_loginbar .hydl_btn{
+	width: 260px;
+    height: 35px;
+    margin-left: 90px;
+}
+#login .login_main .hydl_loginbar .hydl_btn a{
+	display: block;
+    background-color: #db2725;
+    width: 260px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+/*---3.自动登录---------*/
+#login .login_main .hydl_login{
+	padding-left: 90px;
+	height: auto;
+	margin-top: 10px;
+	overflow: hidden;
+}
+#login .login_main .hydl_login span{
+	display:inline-block;
+	margin-top: 3px;
+	width: 9px;
+	height: 9px;
+	border: 1px solid #ccc;
+	visibility: middle;
+}
+#login .login_main .hydl_login span.back{
+    background-color: #000;
+}
+#login .login_main .hydl_login p{
+	display: inline-block;
+}
+
+#login .login_main .hydl_login a{
+	float: right;
+	text-decoration: underline;
+}
+#login .login_main .hydl_login a:hover{
+	color:red;
+}
+/*----------4.联名登录------------*/
+
+#login .login_main .hydl_partner{
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    margin: 20px 0 0 0;
+}
+#login .login_main .hydl_partner h4{
+    width: 75px;
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    white-space: nowrap;
+}
+#login .login_main .hydl_partner a.weibo{
+	display: inline-block;
+    float: left;
+	width: 20px;
+    height: 17px;
+    background:url('../img/login/icon_weibo.png') no-repeat;
+    margin: 0 25px 0 0;
+    cursor: pointer;
+    margin-right: 25px;
+}
+#login .login_main .hydl_partner a.weibo:hover{
+	background:url('../img/login/icon_weibo_02.png') no-repeat;
+
+}
+#login .login_main .hydl_partner a.zhifubao{
+	display: inline-block;
+    float: left;
+	width: 44px;
+    height: 17px;
+    background:url('../img/login/icon_zhifubao.png') no-repeat;
+    margin: 0 25px 0 0;
+    cursor: pointer;
+    margin-right: 25px;
+}
+#login .login_main .hydl_partner a.zhifubao:hover{
+	background:url('../img/login/icon_zhifubao_02.png') no-repeat;
+}
+/*-----------线-----*/
+#login .login_main .line{
+    width: 350px;
+    height: 1px;
+    background-color: #a8aaab;
+    margin-top: 19px;
+}
+
+/*----5.二维码--------*/
+#login .login_main .erweima{
+    margin-left: 90px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#login .login_main .erweima img{
+	float: left;
+}
+#login .login_main .erweima p{
+    line-height: 20px;
+    margin-top: 16px;
+    float: right;
+    margin-right: 18px;
+}
+
+/*============脚本区域===================*/
+#footer {
+  background-color: #fff; }

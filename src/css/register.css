@@ -1,0 +1,170 @@
+@charset "UTF-8";
+body{font-size: 12px;}
+/*===============注册区域===================*/
+#login {
+	background-color: #F7F7F9; 
+}
+#login .container {
+    height: 100%;
+}
+#login .container .login_header{
+	background-color: #fff;
+	overflow: hidden;
+	cursor: pointer; 
+}
+#login .container .login_header img {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#login .container .login_content {
+    background:url("../img/login/background.jpg") no-repeat;
+    height: 650px;
+   	overflow: hidden;
+}
+#login .container .login_content .login_main{
+	float: right;
+	width: 350px;
+	height: 348px;
+	margin: 120px 150px 0 0;
+}
+/*---------------1.注册头部----------*/
+#login .login_main .hydl_regsiter{
+	margin-left: 90px;
+	width: 260px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	font-size: 14px;
+}
+#login .login_main .hydl_regsiter h2{
+	font-size: 16px;
+	float: left;
+	font-weight: bold;
+}
+#login .login_main .hydl_regsiter span{
+	float: right;
+	margin-top: 2px;
+}
+#login .login_main .hydl_regsiter span a{
+	text-decoration: underline;
+	color: #db2725;
+}
+
+/*-----------2注册条*--------------*/
+#login .login_main .hydl_loginbar li{
+	width: 350px;
+	text-align: left;
+	margin-bottom: 10px;
+    position: relative;
+}
+#login .login_main .hydl_loginbar li label{
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	text-align: right;
+	margin-right: 15px;
+}
+#login .login_main .hydl_loginbar li label.error{
+    display: block;
+    width:282px;
+    height:auto;
+    color:red;
+    position: absolute;
+    top: 29px;
+}
+#login .login_main .hydl_loginbar li input{
+    width: 253px;
+    padding-left: 5px;
+    height: 28px;
+    border: 1px solid #999;
+    color: #999;
+    line-height: 28px;
+	color: #000;
+}
+/*设置密码提示*/
+#login .login_main .hydl_loginbar li p.rule,p.hint{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    color: red;
+}
+/*注册条下的_提交按钮*/
+#login .login_main .hydl_loginbar .hydl_btn{
+	width: 260px;
+    height: 35px;
+    margin-left: 90px;
+}
+#login .login_main .hydl_loginbar .hydl_btn a{
+	display: block;
+    background-color: #db2725;
+    width: 260px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+/*---3.注册条款---------*/
+#login .login_main .hydl_login{
+	padding-left: 90px;
+	height: auto;
+	margin-top: 10px;
+	overflow: hidden;
+    color: #000;
+}
+#login .login_main .hydl_login span{
+	display:inline-block;
+	margin-top: 3px;
+	width: 9px;
+	height: 9px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+#login .login_main .hydl_login p{
+	display:block;
+}
+#login .login_main .hydl_login p:last-child{
+    display: inline-block;
+    margin-top: 10px;
+}
+#login .login_main .hydl_login a{
+   text-decoration: underline;
+}
+#login .login_main .hydl_login a:hover{
+   color: red;
+}
+
+/*-----------线-----*/
+#login .login_main .line{
+    width: 350px;
+    height: 1px;
+    background-color: #a8aaab;
+    margin-top: 19px;
+}
+
+/*----5.二维码--------*/
+#login .login_main .erweima{
+    margin-left: 90px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#login .login_main .erweima img{
+	float: left;
+}
+#login .login_main .erweima p{
+    line-height: 20px;
+    margin-top: 16px;
+    float: right;
+    margin-right: 18px;
+}
+
+/*============脚本区域===================*/
+#footer {
+  background-color: #fff; }
+#register{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: #f00;
+    display: none;
+}

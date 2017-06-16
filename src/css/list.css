@@ -1,0 +1,177 @@
+body{font-size: 12px;}
+#productslist{
+	height: 4299px;
+}
+#productslist .container{
+	height: 100%;
+}
+#productslist .container .breadcrumbs{
+	height: 16px;
+	padding: 20px 0;
+	position: relative;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#productslist .container .breadcrumbs ul li{
+	float: left;
+	margin-right: 8px;
+}
+#productslist .container .breadcrumbs ul li span{
+	margin-right: 8px;
+}
+#productslist .container .breadcrumbs ul li a{
+	color: #ccc;
+}
+#productslist .container .breadcrumbs ul li a:hover{
+	color:red;
+}
+#productslist .container .breadcrumbs ul li a.last{
+	color: #000;
+}
+#productslist .container .breadcrumbs .countdown{
+	width: 250px;
+	height: 17px;
+	position: absolute;
+	right: 0;
+	top:20px;
+}
+#productslist .container .breadcrumbs .countdown .clock{
+	float: left;
+	display: inline-block;
+	width: 77px;
+	height: 16px;
+	background: url('../img/list/clock.png');
+}
+#productslist .container .breadcrumbs .countdown .spanTime{
+	float: right;
+	display: inline-block;
+}
+#productslist .container .box_effect{
+	height: 225px;
+	background: url('../img/list/description.JPG') no-repeat ;
+}
+#productslist .container .nav-attrs{
+	height: 78px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	background: url('../img/list/select.JPG') no-repeat;
+}
+#productslist .container .searchContentDiv{
+	height: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#productslist .container .searchContentDiv .productquery{
+	height: 32px;
+	line-height: 30px;
+	overflow: hidden;
+}
+#productslist .container .productquery .sorter{
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+#productslist .container .productquery .btn-reset-sorter{
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	border: 1px solid #e7e7e7;
+}
+#productslist .container .productquery .order-by{
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	border: 1px solid #e7e7e7;
+}
+#productslist .container .productquery .btn-reset-sorter:hover{
+	color: #f00;
+}
+#productslist .container .productquery .order-by:hover{
+	color: #f00;
+}
+#productslist .container .productquery .ui-page-totalCount{
+	float: right;
+	display: inline-block;
+	width: 72px;
+	height: 30px;
+}
+#productslist .container .productquery .ui-page-s-wrap{
+	float: right;
+	width: 108px;
+	height: 30px;
+	color: blue;
+}
+#productslist .container .contentDiv{
+	height: 3853px;
+}
+/*============重点:商品列表加载*/
+#productslist .container .contentDiv .listproduct{
+	overflow: hidden;
+}
+
+#productslist .container .contentDiv .listproduct .list{
+	width: 235px;
+    height: 397px;
+    float: left;
+    text-align: left;
+    line-height: 18px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+#productslist .container .contentDiv .listproduct .list:nth-child(2n+4){
+	margin-right: 0;
+}
+#productslist .container .contentDiv .listproduct .list .price{
+	font-size: 14px;
+	color: #f00;
+	font-weight: bold;
+}
+#productslist .container .contentDiv .listproduct .list .oldPrice{
+	text-decoration:line-through;
+}
+
+
+/*页码样式*/
+#productslist .container .contentDiv .Page{
+	width: 100%;
+	height: 73px;	
+}
+#productslist .container .contentDiv .Page .pagination{
+	margin: 20px 0;
+	height: 30px;
+	margin-left: 420px;
+}
+#productslist .container .contentDiv .Page .pagination li{
+	float: left;
+	margin-left: 5px;
+}
+#productslist .container .contentDiv .Page .pagination>li > a{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+     margin-left: -1px;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+#productslist .container .contentDiv .Page .pagination>li.active > a{
+	background-color:#337ab7;
+	color: #fff;
+}
+
+#productslist .container .contentDiv .Page .pagination>li > a:hover{
+	background-color: #ccc;
+	color: #337ab7;
+}
+
+
+#productslist .container .contentDiv .Page .pagination>li:first-child>a{
+	border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#productslist .container .contentDiv .Page .pagination>li:last-child>a{
+	border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

@@ -66,12 +66,13 @@ require(['config'],function(){
 		$sub.on('click',function(){
 			$.ajax({
 					type:'post',
-					url:'../api/register.php',
+					url:'http://localhost:10086',
 					data:{
 						username:$username.val(),
 						password:$password.val()
 					},
 					success:function(msg){
+						console.log(msg);
 						if (msg==='no*/') {
 							alert('注册失败,用户名已经被注册');
 							

@@ -2,9 +2,8 @@
 	//关键: 在PHP中执行SQL操作;
 	include 'connect.php';
 	//1.获取html传过来的信息;
-	$username = isset($_POST['username'])?$_POST['username']:'';
-	$password = isset($_POST['password'])?$_POST['password']:'';
-
+	$username = isset($_GET['username'])?$_GET['username']:'';
+	$password = isset($_GET['password'])?$_GET['password']:'';
 	//密码加密 :md5方式;
 	$password = md5($password);
 
